@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stappen GitHub</title>
+</head>
+<body>
+
+<header>
+    <h2>GitHub</h2>
+</header>
+
+<section>
+
+     <img src="github.png" height="300" width="300"/>
+
+    <article>
+        <h1>Stappen voor nog niet bestaande files naar GitHub</h1>
+        <ol type="1">
+            <li>git init </li>
+            <li>git status</li>
+            <li>.gitignore aanmaken /.idea</li>
+
+            <ul>
+                <li>git rm -r –cached.idea</li>
+            </ul>
+
+            <li>git add .</li>
+            <li>git status</li>
+            <li>git commit -m "comment about changes”</li>
+            <li>git remote add “link repository GitHub”</li>
+            <li>git push origin master</li>
+        </ol>
+
+        <h1>Files staan al op GitHub, stappen voor aanpassingen</h1>
+        <ol type="1">
+            <li>git status</li>
+            <li>git add .</li>
+            <li>git status</li>
+            <li>git commit -m "comment about changes”</li>
+            <li>git push origin master</li>
+        </ol>
+
+        <h1>Pull request maken</h1>
+        <ol type="1">
+            <li>Clone een GitHub project naar jouw computer</li>
+            <li>Maak een GitHub repository aan</li>
+
+            <br/><b>Terminal WebStorm/IntelliJ</b>
+            <li>git remote remove origin</li>
+            <li>git remote add “link repository GitHub”</li>
+            <li>git push origin master</li>
+            <li>git checkout -b feature/naam</li>
+
+            <br/><li>Maak aanpassingen aan de file</li>
+
+            <br/><b>Terminal WebStorm/IntelliJ</b>
+            <li>git status</li>
+            <li>git add .</li>
+            <li>check of alles groen is</li>
+            <li>git commit -m "comment about changes”</li>
+            <li>git push origin feature/naam</li>
+
+            <br/><li>Via GitHub maak je een Pull Request (PR) en dan compare & pull request</li>
+        </ol>
+    </article>
+</section>
+
+<footer>
+    <p> <a href="https://github.com/danielle076">github.com/danielle076</a> ©</p>
+</footer>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+
+a:visited{
+    color: hsl(114, 13%, 92%);
+}
+
+a:hover{
+    color: hsl(114, 13%, 38%);
+}
+
+a:link{
+    color: hsl(114, 13%, 100%);
+}
+
+/* Style the header */
+header {
+    background-color: hsl(114, 13%, 38%);
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: hsl(114, 13%, 92%);
+    padding: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: hsl(114, 13%, 38%);
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
