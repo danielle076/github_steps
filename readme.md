@@ -21,6 +21,7 @@
 2. Maak een GitHub repository aan
 
 Terminal WebStorm/IntelliJ
+
 3. git remote remove origin
 4. git remote add “link repository GitHub”
 5. git push origin master
@@ -30,6 +31,7 @@ Terminal WebStorm/IntelliJ
 7. Maak aanpassingen aan de file
 
 Terminal WebStorm/IntelliJ
+
 8. git status
 9. git add .
 10. check of alles groen is
