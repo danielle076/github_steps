@@ -26,9 +26,7 @@
 4. git remote add “link repository GitHub”
 5. git push origin master
 6. git checkout -b feature/naam
-7. maak aanpassingen aan de file
-
-
+7. maak aanpassingen aan de file <br/><br/>
 8. git status
 9. git add .
 10. git status
