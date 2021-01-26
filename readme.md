@@ -2,7 +2,7 @@
 1. git init
 2. git status
 3. .gitignore aanmaken /.idea
-4. git rm -r –cached.idea
+    * om bestanden te verwijderen die op GitHub staan: git rm -r –cached.idea .idea 
 5. git add .
 6. git status
 7. git commit -m "comment about changes”
@@ -16,21 +16,27 @@
 4. git commit -m "comment about changes”
 5. git push origin master
 
-### Files staan al op GitHub, stappen voor aanpassingen
-1. Clone een GitHub project naar jouw computer
-2. Maak een GitHub repository aan
+### Pull request maken
+##### GitHub
+1. clone een GitHub project naar jouw computer
+2. maak een GitHub repository aan
 
 ##### Terminal WebStorm/IntelliJ
 3. git remote remove origin
 4. git remote add “link repository GitHub”
 5. git push origin master
 6. git checkout -b feature/naam
-7. Maak aanpassingen aan de file
+7. maak aanpassingen aan de file
 
-##### Terminal WebStorm/IntelliJ
+
 8. git status
 9. git add .
-10. check of alles groen is
+10. git status
 11. git commit -m "comment about changes”
 12. git push origin feature/naam
-13. Via GitHub maak je een Pull Request (PR) en dan compare & pull request
+
+##### GitHub    
+13. maak een Pull Request (PR) aan en dan compare & pull request
+
+##### Terminal WebStorm/IntelliJ
+14. git checkout master

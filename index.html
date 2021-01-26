@@ -23,7 +23,7 @@
             <li>.gitignore aanmaken /.idea</li>
 
             <ul>
-                <li>git rm -r –cached.idea</li>
+                <li>om bestanden te verwijderen die op GitHub staan: git rm -r –cached.idea .idea</li>
             </ul>
 
             <li>git add .</li>
@@ -44,25 +44,29 @@
 
         <h1>Pull request maken</h1>
         <ol type="1">
-            <li>Clone een GitHub project naar jouw computer</li>
-            <li>Maak een GitHub repository aan</li>
+            <b>GitHub</b><br/>
+            <li>clone een GitHub project naar jouw computer</li>
+            <li>maak een GitHub repository aan</li>
 
             <br/><b>Terminal WebStorm/IntelliJ</b>
             <li>git remote remove origin</li>
             <li>git remote add “link repository GitHub”</li>
             <li>git push origin master</li>
             <li>git checkout -b feature/naam</li>
+            <li>maak aanpassingen aan de file</li>
 
-            <br/><li>Maak aanpassingen aan de file</li>
-
-            <br/><b>Terminal WebStorm/IntelliJ</b>
+            <p/>
             <li>git status</li>
             <li>git add .</li>
-            <li>check of alles groen is</li>
+            <li>git status</li>
             <li>git commit -m "comment about changes”</li>
             <li>git push origin feature/naam</li>
 
-            <br/><li>Via GitHub maak je een Pull Request (PR) en dan compare & pull request</li>
+           <br/> <b>GitHub</b><br/>
+            <li>maak een Pull Request (PR) aan en dan compare & pull request</li>
+
+            <br/><b>Terminal WebStorm/IntelliJ</b>
+            <li>git checkout master</li>
         </ol>
     </article>
 </section>
